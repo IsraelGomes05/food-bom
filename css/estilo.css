@@ -1,0 +1,174 @@
+/*Limpar as formatações*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: gainsboro;
+}
+
+header {
+    background-color: rgba(15,85,70,0.80);
+    width: 100%;
+    height: 40px;
+    top: 0;
+    position: fixed;
+}
+
+a.menu {
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    font-family: Verdana, sans-serif;
+}
+
+a.menu:hover {
+    border-radius: 20px;
+    background-color: goldenrod;
+    color: #114d32;
+}
+
+span#texto-logo {
+    color: goldenrod;
+    font-family: "Arial Black", sans-serif;
+}
+
+div#menu-navegacao {
+    float: right;
+    margin: 10px;
+}
+
+div#logo {
+    float: left;
+    color: white;
+    font-family: Verdana, sans-serif;
+    margin: 3px;
+    font-size: 18pt;
+}
+
+header div#area-cabecalho {
+    width: 750px;
+    margin: 0 auto;
+}
+
+img#img-pizza {
+    width: 750px;
+    height: 300px;
+}
+
+img#em-construcao{
+    width: 750px;
+}
+
+div#area-corpo {
+    width: 750px;
+    margin: 45px auto 10px auto;
+    background: white;
+}
+
+img.img-postagem {
+    height: 150px;
+    width: 250px;
+    float: left;
+    margin-right: 5px;
+}
+
+article.postagem{
+    width: 740px;
+    height: 185px;
+    background-color: white;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+article.postagem > a{
+    text-decoration: none;
+    color: black;
+}
+h2.titulo-postagem {
+    background: darkslategrey;
+    color: goldenrod;
+    margin-bottom: 5px;
+    font-family: "Arial Black", sans-serif;
+    font-size: 14pt;
+    border-radius: 5px;
+}
+
+p.texto-postagem{
+    font-family: Arial, sans-serif;
+    text-align: justify;
+}
+
+footer{
+    background-color: rgba(8,30,56,0.83);
+    color: snow;
+    width: 750px;
+    height: 55px;
+    margin: 50px auto 0 auto;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 11pt;
+}
+
+form{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input{
+    margin: 5px;
+}
+
+fieldset{
+    border: 2px solid green;
+    margin: 10px;
+    height: 100px;
+}
+
+textarea{
+    width: 300px;
+    height: 100px;
+    margin: 10px 0 0 10px;
+    font-size: 12pt;
+}
+
+label{
+    margin: 10px;
+}
+
+.botao-formulario{
+   margin: 10px 350px 10px 350px; 
+   height: 35px;
+   width: 100px;
+   background: rgba(103, 168, 243, 0.8);
+   border: 1.5px solid black;
+   border-radius: 500px;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 12pt;
+   color: white;
+}
+
+.botao-formulario:hover{
+    background:rgba(123, 243, 129, 0.7);
+    color: black;
+}
+
+.campo-texto-formulario{
+    width: 300px;
+    height: 23px;
+    font-size: 12pt;
+}
+
+.titulo-food{
+    color: rgba(10, 32, 23, 0.8);
+    font-family: "Arial Black", sans-serif;
+    height: 50px;
+    border-bottom: 10px solid #114d32;
+    font-size: 26px;
+    text-align: center;
+    border-radius: 300%;
+}
+
+span#texto-footer{
+    
+}
