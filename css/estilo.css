@@ -169,6 +169,6 @@ label{
     border-radius: 300%;
 }
 
-span#texto-footer{
-    
+span.promocao{
+    color: red;
 }
