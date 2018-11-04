@@ -4,12 +4,57 @@
     padding: 0;
 }
 
-body {
-    background: gainsboro;
+.video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1000;
+}
+
+body#churras-01 {
+    background: url("../img/background4.jpg");
+}
+
+body#churras-02 {
+    background: url("../img/background3.jpg");
+}
+
+body#churras-03 {
+    background: url("../img/background.jpg");
+}
+
+div#carrocel {
+    height: 200px;
+    width: auto;
+    text-align: center;
+}
+
+.texto-carrocel {
+    font-size: 35px;
+    color: #fef9ff;
+    font-family: "Trebuchet MS", sans-serif;
+    padding-top: 40px;
+}
+
+.titulo {
+    font-size: 60px;
+    font-family: "Arial Black", sans-serif;
+    color: white;
+}
+
+.texto-topo {
+    background: #373640;
+    border-radius: 20px;
+    padding: 3px 30px 3px 30px;
+    color: goldenrod;
 }
 
 header {
-    background-color: rgba(15,85,70,0.80);
+    background-color: rgba(15, 85, 70, 0.80);
     width: 100%;
     height: 40px;
     top: 0;
@@ -58,14 +103,20 @@ img#img-pizza {
     height: 300px;
 }
 
-img#em-construcao{
+img#em-construcao {
     width: 750px;
 }
 
 div#area-corpo {
     width: 750px;
     margin: 45px auto 10px auto;
-    background: white;
+}
+
+div#area-corpo-pedido {
+    width: 750px;
+    margin: 45px auto 10px auto;
+    background: snow;
+    padding: 5px;
 }
 
 img.img-postagem {
@@ -75,18 +126,20 @@ img.img-postagem {
     margin-right: 5px;
 }
 
-article.postagem{
+article.postagem {
     width: 740px;
-    height: 185px;
-    background-color: white;
+    height: 210px;
+    background-color: #bcbab8;
     padding: 5px;
-    margin-top: 10px;
+    margin-top: 5px;
+    border-radius: 2%;
 }
 
-article.postagem > a{
+article.postagem > a {
     text-decoration: none;
     color: black;
 }
+
 h2.titulo-postagem {
     background: darkslategrey;
     color: goldenrod;
@@ -96,13 +149,13 @@ h2.titulo-postagem {
     border-radius: 5px;
 }
 
-p.texto-postagem{
+p.texto-postagem {
     font-family: Arial, sans-serif;
     text-align: justify;
 }
 
-footer{
-    background-color: rgba(8,30,56,0.83);
+footer {
+    background-color: rgba(8, 30, 56, 0.83);
     color: snow;
     width: 750px;
     height: 55px;
@@ -112,55 +165,57 @@ footer{
     font-size: 11pt;
 }
 
-form{
+form {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-input{
+input {
     margin: 5px;
 }
 
-fieldset{
+fieldset {
     border: 2px solid green;
     margin: 10px;
     height: 100px;
 }
 
-textarea{
-    width: 300px;
+textarea {
+    width: 740px;
     height: 100px;
     margin: 10px 0 0 10px;
     font-size: 12pt;
 }
 
-label{
+label {
     margin: 10px;
 }
 
-.botao-formulario{
-   margin: 10px 350px 10px 350px; 
-   height: 35px;
-   width: 100px;
-   background: rgba(103, 168, 243, 0.8);
-   border: 1.5px solid black;
-   border-radius: 500px;
-   font-family: Arial, Helvetica, sans-serif;
-   font-size: 12pt;
-   color: white;
+.botao-formulario {
+    margin: 10px 350px 10px 350px;
+    height: 35px;
+    width: 100px;
+    background: rgba(103, 168, 243, 0.8);
+    border: 1.5px solid black;
+    border-radius: 500px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+    color: white;
+    display: block;
 }
 
-.botao-formulario:hover{
-    background:rgba(123, 243, 129, 0.7);
+.botao-formulario:hover {
+    background: rgba(123, 243, 129, 0.7);
     color: black;
 }
 
-.campo-texto-formulario{
-    width: 300px;
+.campo-texto-formulario {
+    width: 700px;
     height: 23px;
     font-size: 12pt;
+    margin-left: 20px;
 }
 
-.titulo-food{
+.titulo-food {
     color: rgba(10, 32, 23, 0.8);
     font-family: "Arial Black", sans-serif;
     height: 50px;
@@ -170,39 +225,55 @@ label{
     border-radius: 300%;
 }
 
-span.promocao{
+span.promocao {
     color: red;
 }
 
 /*Churrascarias*/
-.topo-churrascaria{
+.topo-churrascaria {
 
 }
 
-.img-logo-churras{
+.img-logo-churras {
     height: 150px;
     width: 150px;
 }
 
-.cabecalho-churrascarias{
+.cabecalho-churrascarias {
     width: auto;
     height: 150px;
     background: #63686e;
     margin-top: 20px;
 }
 
-.img-ambiente-churas{
+.img-ambiente-churas {
     width: auto;
     height: 330px;
     margin-top: 20px;
 }
 
-.img-ambiente{
+.menu-churras{
+    width: auto;
+    height: 200px;
+    margin-top: 25px;
+    background: #63686e;
+}
+
+.opcoes-menu{
+    margin-left: 20px;
+    color: #fef9ff;
+}
+
+.img-ambiente {
     height: 300px;
     width: 750px;
 }
 
-.botao-fazer-pedido{
+ul {
+    list-style-image: url('../img/resized_fork_84033.png');
+}
+
+.botao-fazer-pedido {
     height: 30px;
     width: 110px;
     background: rgba(50, 83, 84, 0.8);
@@ -215,17 +286,20 @@ span.promocao{
     margin-top: 115px;
 }
 
-.botao-fazer-pedido:hover{
+.botao-fazer-pedido:hover {
     background: goldenrod;
     color: black;
 }
 
 /*Churrascarias*/
 
+#none{
+    display: none;
+}
 
 /*Galeria*/
 
-.titulo-galeria{
+.titulo-galeria {
     background: #373640;
     height: 40px;
     color: goldenrod;
@@ -237,7 +311,7 @@ span.promocao{
     padding-left: 5px;
 }
 
-.galeria-geral{
+.galeria-geral {
     margin-top: 20px;
     height: 300px;
     width: auto;
@@ -265,4 +339,5 @@ div.desc {
     text-align: center;
     background: white
 }
+
 /*Galeria*/
