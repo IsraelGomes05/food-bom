@@ -27,6 +27,7 @@ a.menu:hover {
     border-radius: 20px;
     background-color: goldenrod;
     color: #114d32;
+    text-decoration: none;
 }
 
 span#texto-logo {
@@ -172,3 +173,96 @@ label{
 span.promocao{
     color: red;
 }
+
+/*Churrascarias*/
+.topo-churrascaria{
+
+}
+
+.img-logo-churras{
+    height: 150px;
+    width: 150px;
+}
+
+.cabecalho-churrascarias{
+    width: auto;
+    height: 150px;
+    background: #63686e;
+    margin-top: 20px;
+}
+
+.img-ambiente-churas{
+    width: auto;
+    height: 330px;
+    margin-top: 20px;
+}
+
+.img-ambiente{
+    height: 300px;
+    width: 750px;
+}
+
+.botao-fazer-pedido{
+    height: 30px;
+    width: 110px;
+    background: rgba(50, 83, 84, 0.8);
+    border: 1.5px solid black;
+    border-radius: 500px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+    color: white;
+    float: right;
+    margin-top: 115px;
+}
+
+.botao-fazer-pedido:hover{
+    background: goldenrod;
+    color: black;
+}
+
+/*Churrascarias*/
+
+
+/*Galeria*/
+
+.titulo-galeria{
+    background: #373640;
+    height: 40px;
+    color: goldenrod;
+    margin-bottom: 5px;
+    font-family: "Arial Black", sans-serif;
+    font-size: 14pt;
+    border-radius: 5px;
+    padding-top: 7px;
+    padding-left: 5px;
+}
+
+.galeria-geral{
+    margin-top: 20px;
+    height: 300px;
+    width: auto;
+    background: #5c848e;
+}
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 176px;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: 176px;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+    background: white
+}
+/*Galeria*/
